@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="input">
+            <h3>Generate QR Code</h3>
+            <p class="inputerror">* Cannot be Empty</p>
+            <form method="#">
+                <textarea id="text" cols="30" rows="20" placeholder="Enter the Text to Generate QR Code"></textarea>
+                <div> 
+                    <button type="reset" id="clear">Clear</button>
+                    <li id="submit">Submit</li>                   
+                </div>
+            </form>
+        </div>
+        <div class="output">
+            <h2>QR Code</h2>
+            <div class="img">
+                <p>Loading...</p>
+            </div>
+            <div class="btn">
+                <button id="regenerate">Regenerate</button>
+                <!-- <button id="download"><a href="#" download>Download</a></button> -->
+            </div>
+        </div>
+        <div class="error" >
+            <p>Please Connect to the Internet</p>
+        </div>
+    </div>
+</body>
+</html>

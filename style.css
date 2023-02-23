@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 355px;
+    width: 300px;
+}
+.wrapper{
+    padding: 3px 0px;
+    height: 100%;
+    width: 100%;
+    background: #2c3e50;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input h3{
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.input form{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+.input form textarea{
+    outline: none;
+    width: 290px;
+    height: 250px;
+        font-size: 18px;
+    padding: 5px;
+    overflow:auto;
+    overflow-x: hidden;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+.input form textarea::placeholder{
+    font-size: 16px;
+    color: #000;
+}
+.input form div {
+    margin: 10px;
+    text-align: center;    
+}
+.input form div button,#submit,#clear:hover{
+    margin: 0px 12px;
+    width: 100px;
+    background: #3498db;
+    padding: 3px 0px;
+    border: 2px solid #fff;
+    transition: all .2s linear;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#submit{
+    list-style-type: none;
+    display:inline-block;
+}
+#submit:hover,#clear{
+    background: #fff;
+    color: #000;
+    border: 2px solid #3498db;
+}
+.inputerror{
+    color: red;
+    display: none;
+}
+.output{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.output h2{
+    color: #fff;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.output .img img{
+    margin: 14px 0px;
+    height: 200px;
+    width: 200px;
+}
+.img p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+    height: 200px;
+    width: 200px;
+}
+.output{
+    display: none;
+}
+.output .btn button,#regenerate:hover{
+    width: 110px;
+    background: #3498db;
+    padding: 3px 0px;
+    border: 2px solid #fff;
+    transition: all .2s linear;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:15px;
+}
+.output .btn button a{
+    text-decoration: none;
+    color: #fff;
+}
+.output .btn button:hover,#regenerate{
+    background: #fff;
+}
+.btn button:hover a,#regenerate{
+    color: #000;
+}
+.input form div button:active,#submit:active,#clear:active,#regenerate:active,#download:active,#download:active a{
+    background: transparent;
+    color: #fff;
+}
+.error{
+    height: 100%;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+    text-align: center;
+    align-items: center;
+}
+

@@ -1,0 +1,19 @@
+{
+    "name":"QR Code Generator",
+    "description":"It helps you to generate the QR code based on the text you have provided🙂.",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":"icon/128.png",
+        "default_title":"QR Code Generator"
+    },
+    "permissions":["activeTab","scripting"],
+    "icons":{
+        "128":"icon/128.png",
+        "48":"icon/48.png",
+        "16":"icon/16.png"
+    },
+    "author":"Santosh Bhandari",
+    "short_name":"QR Code"
+}
