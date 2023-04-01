@@ -3,8 +3,8 @@ This chrome extension generates the QR code as per the given text. It is develop
 
 # Usages
 1. Clone the Repo
-2. Go to the Manage Extension of Browser you used and turn on Developer Mode(Which is availabl Side corner)
-3. Click on Load Unpace in Rightked and select the Cloned folder where the manifest.json file is located.
+2. Go to the Manage Extension of Browser you used and turn on Developer Mode(Which is available Side Corner)
+3. Click on Load Unpacked in Left and Select the Cloned folder where the manifest.json file is located.
 4. Enjoy the Extension 
 
 # Contribution
