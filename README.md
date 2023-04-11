@@ -17,5 +17,5 @@ Create a new branch for your feature or bug fix.
 Make your changes and commit them with descriptive messages.
 Push your branch to your forked repository.
 Open a pull request to merge your changes back into the main repository.
-If you have anything to say just mail me at santoshbhandari1@gmail.com.
+If you have any issue, then mentioned in issue section.
 <p>Thank You. Enjoy the Day</p>
