@@ -12,7 +12,7 @@ document.getElementById("submit").addEventListener("click",function (){
 	if(value=="" || value==null){
 		inputerror.style.display="block";
 		generror.style.display="none";
-	}else if(value.length>24){ //change the length with the maximum character supported by the QR Code;
+	}else if(value.length>1000){
 		console.log(value.length)
 		generror.style.display="block";
 		inputerror.style.display="none";
