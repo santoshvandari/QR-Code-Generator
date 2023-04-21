@@ -5,12 +5,20 @@
 let text=document.getElementById("text");
 let input=document.querySelector(".input");
 let output=document.querySelector(".output");
+let inputerror=document.querySelector(".inputerror");
+let generror=document.querySelector(".generror");
 document.getElementById("submit").addEventListener("click",function (){
 	value=text.value
-	if(value=="" || value==null)
-		document.querySelector(".inputerror").style.display="block";
-	else{
-		document.querySelector(".inputerror").style.display="none";
+	if(value=="" || value==null){
+		inputerror.style.display="block";
+		generror.style.display="none";
+	}else if(value.length>24){ //change the length with the maximum character supported by the QR Code;
+		console.log(value.length)
+		generror.style.display="block";
+		inputerror.style.display="none";
+	}else{
+		generror.style.display="none";
+		inputerror.style.display="none";
 		generateQR();
 	}
 });
