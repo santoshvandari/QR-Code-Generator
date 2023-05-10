@@ -30,5 +30,5 @@ If you'd like to contribute to this project, please follow these steps:
 - Push your branch to your forked repository.
 - Open a pull request to merge your changes back into the main repository.
 
-If you have any issue, then mentioned in issue section.
+If you encounter any issues or have any questions, please don't hesitate to mentioned it in issue section as well as reach out to me at  info@bhandari-santosh.com.np.
 <p>Thank You. Enjoy the Day</p>
