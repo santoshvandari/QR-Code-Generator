@@ -10,7 +10,7 @@ To use the QR code generator on your own Browser, Follow One of the Following st
 - Click on Load Unpacked in Left and Select the Cloned folder where the manifest.json file is located.
 - Enjoy the Extension.
 #### Method 2:
-- Download the QR-Code-Generator.crx file from the <a href="https://github.com/santoshvandari/QR-Code-Generator/releases/tag/V1">releases.</a>
+- Download the QR-Code-Generator.crx file from the <a href="https://github.com/santoshvandari/QR-Code-Generator/releases">releases.</a>
 - Go to the Manage Extension of your Browser.
 - Drag the QR-Code-Generator.crx file in your Browser.
 - It will ask the prompt for Adding the extenison. Just click on Add Extension.
