@@ -16,8 +16,8 @@ To use the QR code generator on your own Browser, Follow One of the Following st
 - It will ask the prompt for Adding the extenison. Just click on Add Extension.
 - Enjoy the Extension.
 
-#### Method 3(Only for MSEdge User):
-- Click the <a href="https://microsoftedge.microsoft.com/addons/detail/qr-code-generator/apjmlllbijnbhlekjeafbdhfkijhbjck">Link Here.</a>
+#### Method 3(Only for MSEdge & FireFox User):
+- Click the Link: <a href="https://microsoftedge.microsoft.com/addons/detail/qr-code-generator/apjmlllbijnbhlekjeafbdhfkijhbjck">MS Edge</a> | <a href="https://addons.mozilla.org/en-US/firefox/addon/qrgenerator/">FireFox</a>
 - It will redirect you to the Edge Add-ons Store. Click on Get.
 - It will ask the prompt for Adding the extenison. Just click on Add Extension.
 - Enjoy the Extension.
